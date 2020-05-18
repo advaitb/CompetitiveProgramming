@@ -50,7 +50,6 @@ public:
                 }
                 else
                 {
-                    cout<<addone<<endl;
                     res.insert(res.begin(),'1');
                 }
             }
