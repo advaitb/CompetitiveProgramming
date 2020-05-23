@@ -38,3 +38,27 @@ private:
         return lps;
     }
 };
+
+/*
+//Brute force
+int bruteForce(std::string& text, std::string& pattern)
+{
+    int startpos = text.length() - pattern.length();
+    for(int i = 0; i < startpos; i++)
+    {
+        int j = 0;
+        for(;j < pattern.length(); j++)
+        {
+            if(text[i+j] != pattern[j])
+            {
+                break;
+            }
+        }
+        if (j == pattern.length())
+        {
+            return i;
+        }
+    }
+    return -1;
+}
+*/
