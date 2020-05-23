@@ -1,4 +1,5 @@
 //KMP
+//https://medium.com/@giri_sh/string-matching-kmp-algorithm-27c182efa387
 
 class Solution {
 public:
